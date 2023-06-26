@@ -1,0 +1,13 @@
+#pagination{
+	text-align:right;
+	}
+
+#pagination a{
+	color:rgb(0, 0, 0);
+	border-radius: 0px;
+	border:none;
+	cursor: pointer;
+	}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+	background:#919191;
+	}

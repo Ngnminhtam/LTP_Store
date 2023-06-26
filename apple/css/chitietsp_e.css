@@ -1,0 +1,109 @@
+#product {
+	overflow: hidden;
+}
+
+#product h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	margin: 0 0 20px 0;
+}
+
+#product p span.sl {
+	width: 150px;
+	height: auto;
+	font-weight: bold;
+	display: block;
+	float: left;
+}
+
+#prd-thumb,
+#prd-intro {
+	margin: 15px 0;
+}
+
+#prd-price {
+	font-size: 15px;
+}
+
+.sr {
+	color: #66a8ee;
+	font-weight: bold;
+}
+
+#product button {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#prd-details {
+	line-height: 18px;
+	padding: 15px 0;
+	border-top: 1px solid #ccc;
+	margin-top: 15px;
+}
+
+#comment {
+	padding: 15px 0;
+}
+
+#comment h3 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	text-transform: capitalize;
+	margin: 0 0 15px 0;
+}
+
+#comment input,
+#comment textarea {
+	border-radius: 0;
+}
+
+#comment textarea {
+	height: 250px;
+}
+
+#comments {
+	padding: 15px 0;
+}
+
+#comments ul {
+	border-bottom: 1px dotted #ccc;
+}
+
+#comments ul li {
+	list-style: none;
+}
+
+#comments ul li.comm-name {
+	font-weight: bold;
+	color: #000;
+}
+
+#comments ul li.comm-details {
+	line-height: 18px;
+	padding: 10px 0;
+}
+
+#pagination {
+	padding: 0;
+}
+
+ul.pagination {
+	margin: 0;
+}
+
+#pagination{
+	text-align:right;
+	}
+
+#pagination a{
+	color:rgb(0, 0, 0);
+	border-radius: 0px;
+	border:none;
+	cursor: pointer;
+	}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+	background:#919191;
+	}
